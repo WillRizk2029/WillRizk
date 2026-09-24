@@ -1,0 +1,6 @@
+favourite_animal= input("What is your favourite animal?")
+sound= input("What sound does the animal make?")
+_like_= input("Why do you like them?")
+_live= input("Where do they live?")
+_color= input("What color are they?")
+print("Your favorite animal is " + favourite_animal + " and it sounds like " + sound ". You like them because " + _like_ " and they are " + _color "They live in " + _live)
