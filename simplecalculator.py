@@ -1,16 +1,27 @@
 def add(x, y):
-    return x + y
+   print (x + y)
+   return x + y
 def subtract(x, y):
+    print (x - y)
     return x - y
 def multiply(x, y):
-    return x * y    
+    print (x * y)
+    return x * y
 def divide(x, y):
-   return x/y
-
-sum_1 = add(5, 7)
-sum_2 = subtract(13, 7)
-sum_3 = divide(12, 6)
-sum_4 = multiply(3, 4)
+    print (x / y)
+    return x / y
+x = float(input("Enter first number: "))
+y = float(input("Enter second number: "))
+x2 = float(input("Enter third number: "))
+y2 = float(input("Enter fourth number: "))
+x3 = float(input("Enter fifth number: "))
+y3 = float(input("Enter sixth number: "))
+x4 = float(input("Enter seventh number: "))
+y4 = float(input("Enter eighth number: "))
+sum_1 = add(x, y)
+sum_2 = subtract(x2, y2)
+sum_3 = divide(x3, y3)
+sum_4 = multiply(x4, y4)
 
 print (sum_1)
 print (sum_2)
