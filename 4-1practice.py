@@ -1,0 +1,11 @@
+fruits = ["watermelon", "apple", "orange", "banana", "will"]
+print(fruits[0])
+print(fruits[4])
+input_fruit = input("Enter a fruit: ")
+fruits.insert(4, input_fruit)
+print(fruits)
+input_remove = input("Enter a fruit to remove: ")
+fruits.remove(input_remove)
+print(fruits)
+fruits.sort()
+print(fruits)

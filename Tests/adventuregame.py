@@ -11,7 +11,7 @@ def start_adventure():
         help = input().lower()
         if help == "help":
             print("You decide to help the creature. You take them back to your cottage.")
-            print("Do you let the creatures stay with you in your home, or do you release them?")
+            print("Do you let the creatures stay with you in your home, or do you release them? Yes/No")
             care = input(). lower()    
             if care == "yes":
                 print("The creatures seem very appreciative. You decide to go to the local sage, Cye, to find more information about the creatures.")
@@ -46,7 +46,7 @@ def start_adventure():
                         if food_2 == "turp":
                             print("Amazing choice! The pyrys eat it all, and they seem very happy.")
                         if food_2 == "old snack":
-                            print("Uhhhh... are you sure? This... thing looks inedible. It's discolored and has a strange stench to it.")
+                            print("Uhhhh... are you sure? This... thing looks inedible. It's discolored and has a strange stench to it. Yes/No")
                             sure_1 = input(). lower()
                             if sure_1 == "yes":
                                 print(f"{name_1} and {Name_2} immediately run to the opposite side of your cottage. They seem disgusted. Frankly, so are you.")
@@ -54,7 +54,7 @@ def start_adventure():
                                 print("Good choice. Feed the pyrys something else.")
                                 print("You feed the pyrys turp. They eat it all, and seem much happier with you!")
                     if food == "old snack":
-                       print("Uhhhh... are you sure? This... thing looks inedible. It's discolored and has a strange stench to it.")
+                       print("Uhhhh... are you sure? This... thing looks inedible. It's discolored and has a strange stench to it. Yes/No")
                        sure = input(). lower()
                        if sure == "yes":
                         print(f"{name_1} and {Name_2} immediately run to the opposite side of your cottage. They seem disgusted. Frankly, so are you.")
